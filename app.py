@@ -12,7 +12,7 @@ st.title("Endee Code RAG — Repo-aware Q&A")
 
 with st.sidebar:
     st.markdown("---")
-    st.write("Environment must have `OPENAI_API_KEY`. Optionally set `ENDEE_URL` and `ENDEE_API_KEY` to use Endee.")
+    st.write("Uses local embeddings + Endee vector database (no OpenAI required).")
 
 repo_url = st.text_input("GitHub repository URL", value="")
 if st.button("Index Repo"):

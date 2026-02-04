@@ -1,4 +1,3 @@
-endee
 openai
 streamlit
 gitpython
